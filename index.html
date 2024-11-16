@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Sejnova - Developer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #17a2b8;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maria Sejnova - Developer Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a backend developer with nearly 4 years of experience in web technologies such as Node.js, TypeScript, and React. I am passionate about creating robust and scalable web applications, and I have worked on a variety of challenging projects during my career.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Finance Flow Web</h3>
+                <p>A finance tracking application that allows users to monitor transactions and categorize them. Built with React, TypeScript, and localStorage for data persistence.</p>
+                <p><strong>Features:</strong></p>
+                <ul>
+                    <li>Interactive graphs and statistics for financial analysis.</li>
+                    <li>Custom hooks for managing application state.</li>
+                    <li>Scalable architecture for future integration with a backend.</li>
+                </ul>
+                <p><a href="https://github.com/MariaMedvidova/finance-flow-web" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Announcement Board</h3>
+                <p>A city announcement board system that allows users to manage and display announcements for different cities. It includes a backend for data management and a React frontend for user interaction.</p>
+                <p><strong>Features:</strong></p>
+                <ul>
+                    <li>Robust backend using Node.js, Knex, and PostgreSQL.</li>
+                    <li>Frontend designed with React and styled using Bootstrap.</li>
+                    <li>Comprehensive API documentation using Swagger UI.</li>
+                </ul>
+                <p><a href="https://github.com/MariaMedvidova/announcement-board" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Gallery API Server</h3>
+                <p>A backend server API for managing image galleries, designed with Node.js and Express. Provides CRUD operations for managing albums and photos.</p>
+                <p><strong>Technologies:</strong> Node.js, Express, MongoDB</p>
+                <p><a href="https://github.com/MariaMedvidova/gallery-API-server" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Educational Resources Platform</h3>
+                <p>
+                    A platform for sharing and classifying educational resources like books and articles. Users can post, comment, and rate resources. New resources can be added and classified by type, year, or theme. 
+                    Authentication via password, Google, or Facebook, with user registration and different access levels (admin, owner, consumer).
+                </p>
+                <p><strong>Technologies:</strong> Node.js, Bootstrap, MongoDB</p>
+                <p><a href="https://github.com/MariaMedvidova/Repository-app" target="_blank">View Project on GitHub</a></p>
+            </div>            
+            <div class="project">
+                <h3>DAW Repositories</h3>
+                <p>School projects for the web development course at the University of Minho. 
+                    They contain MVC design with extensive mongo queries and a focus mainly 
+                    on the backend, Pug is used for FE.</p>
+                <p><strong>Technologies:</strong> Node.js, Express, MongoDB</p>
+                <p><a href="https://github.com/MariaMedvidova/Repository-app" target="_blank">View Project</a></p>
+            </div>
+            
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:maria.medvidova@gmail.com">maria.medvidova@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mariasejnova/" target="_blank">linkedin.com/in/mariasejnova</a></p>
+            <p>GitHub: <a href="https://github.com/MariaMedvidova" target="_blank">github.com/MariaMedvidova</a></p>
+            <p>Download my resume: <a href="SEJNOVA_CV.pdf" download>Maria Sejnova - CV</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Maria Sejnova. Built with passion for web development.</p>
+    </footer>
+</body>
+</html>
